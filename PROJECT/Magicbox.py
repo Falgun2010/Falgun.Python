@@ -1,3 +1,4 @@
+
 print("Welcome to the pattern generator and number Analyzer\n")
 print("Selct an option:")
 print("1. Right-angled triangle")
