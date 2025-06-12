@@ -39,17 +39,17 @@
 
 #6.rock , paper and scissors game
 
-#import random
+import random
 
-#chocies = ["rock" , "paper" , "scissors"]
-#computer = random.choice(chocies)
-#player = input(" choose rock , paper and scissors : ")
+chocies = ["rock" , "paper" , "scissors"]
+computer = random.choice(chocies)
+player = input(" choose rock , paper and scissors : ")
 
-#if player == computer:
-    #print("😂, it's a tie!! ")
-#elif (player == "rock" and computer == "scissors") or \
-    # (player == "paper" and computer == "rock") or \
-     #(player == "scissors" and computer == "paper"): 
-    #print("🎉 You win...")
-#else:
-    #print("🎊 computer win....")
+if player == computer:
+    print("😂, it's a tie!! ")
+elif (player == "rock" and computer == "scissors") or \
+    (player == "paper" and computer == "rock") or \
+     (player == "scissors" and computer == "paper"): 
+    print("🎉 You win...")
+else:
+    print("🎊 computer win....")
